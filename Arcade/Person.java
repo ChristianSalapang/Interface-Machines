@@ -1,5 +1,4 @@
 package Arcade;
-import java.util.Scanner;
 
 public class Person {
     private int coins;
