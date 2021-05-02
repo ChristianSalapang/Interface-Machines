@@ -12,8 +12,6 @@ public class ArcadeMachine implements Coinable, Dispensable {
     public void dispense() {
         // method
         System.out.println("You inserted 1 coin. The game is ready to play!");
-        System.out.println("Arcade is ready to play!");
-        System.out.println("Game over!");
         coins++;
         System.out.println("Total coins earned by the machine: " + coins);
     }
